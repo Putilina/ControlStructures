@@ -7,7 +7,7 @@ void main()
 	setlocale(LC_ALL, "");
 	int n;
 	cout << "¬ведите размер доски:"; cin >> n;
-	/*for (int i = 0; i <n; i++)
+	for (int i = 0; i <n; i++)
 	{
 		for (int j = 0; j <n; j++)
 		{
@@ -20,7 +20,7 @@ void main()
 			}
 		cout << endl;
 		}
-	}*/
+	}
 #ifdef TERNARNIK_+-
 	for (int i = 0; i < n; i++)
 	{
