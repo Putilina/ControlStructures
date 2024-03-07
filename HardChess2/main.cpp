@@ -9,7 +9,9 @@ void main()
 	{
 		for (int j = 0; j < n * n; j++)
 		{
-		   cout << (i / n % 2 == j / n % 2 ? "* " : "  ");
+			cout << (i / n & 1 ^j / n & 1 ? "  " : "*  ");
+			//cout << (i / n % 2 == j / n % 2 ? "* " : "  ");
+		
 		}
 		cout << endl;
 	}
